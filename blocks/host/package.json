@@ -1,0 +1,17 @@
+{
+  "name": "panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/plugins": "^6.15.0",
+    "@wordpress/scripts": "^26.18.0"
+  }
+}
