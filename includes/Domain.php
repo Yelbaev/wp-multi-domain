@@ -347,9 +347,9 @@ class Domain {
     $this->add_option_filters();
 
     $config[ $default ] = [
-      'show_on_front'  => $show_on_front->option_value,
-      'page_on_front'  => $page_on_front->option_value,
-      'page_for_posts' => $page_for_posts->option_value,
+      'show_on_front'  => $show_on_front,
+      'page_on_front'  => $page_on_front,
+      'page_for_posts' => $page_for_posts,
       'is_default'     => true
     ];
 
@@ -357,7 +357,7 @@ class Domain {
   } // hosts_config
 
   /**
-   * Savss the configuration of the hosts to the database. 
+   * Saves the configuration of the hosts to the database. 
    * @return bool|string
    */
   public function hosts_config_save( $data ){
